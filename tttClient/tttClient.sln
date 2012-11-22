@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tttClient", "tttClient\tttClient.csproj", "{3E77A398-5CF9-4A52-A5CC-A173FF38885D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{4C6B5D8F-7B39-49A8-993A-F0C8A7BA2123}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E77A398-5CF9-4A52-A5CC-A173FF38885D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E77A398-5CF9-4A52-A5CC-A173FF38885D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E77A398-5CF9-4A52-A5CC-A173FF38885D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E77A398-5CF9-4A52-A5CC-A173FF38885D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6B5D8F-7B39-49A8-993A-F0C8A7BA2123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6B5D8F-7B39-49A8-993A-F0C8A7BA2123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6B5D8F-7B39-49A8-993A-F0C8A7BA2123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6B5D8F-7B39-49A8-993A-F0C8A7BA2123}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
