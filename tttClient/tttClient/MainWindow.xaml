@@ -2,9 +2,23 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525"
-        Loaded="Window_Loaded_1">
-    <Grid Name="grid" HorizontalAlignment="Left" Height="276" VerticalAlignment="Top" Width="486" Margin="19,25,0,0">
-        <Label Content="Player 1" HorizontalAlignment="Left" Margin="314,64,0,0" VerticalAlignment="Top" Foreground="#FF0808FF" FontSize="20" FontWeight="Bold"/>
-        <Label Content="Player 2" HorizontalAlignment="Left" Margin="314,101,0,0" VerticalAlignment="Top" Foreground="#FFFF0808" FontSize="20" FontWeight="Bold" Background="White"/>
+        Loaded="WindowLoaded">
+    <Grid Name="grid2" HorizontalAlignment="Left" Height="322" VerticalAlignment="Top" Width="534" Margin="0,0,0,0">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFDEDEDE" Offset="0"/>
+                <GradientStop Color="#FFD1D1D1" Offset="1"/>
+                <GradientStop Color="#FFF3F3F3" Offset="0.104"/>
+                <GradientStop Color="#FFF1F1F1" Offset="0.896"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Name="lbl_player" Content="Loading..." Margin="296,42,75,0" Foreground="Black" FontSize="20" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Center" Width="163" FontFamily="OCR A Std"/>
+        <Grid Name="grid" HorizontalAlignment="Left" Height="255" Margin="20,32,0,0" VerticalAlignment="Top" Width="271"/>
+        <Label Name="lbl_gameId" Content="Loading..." HorizontalAlignment="Left" Margin="296,119,0,0" VerticalAlignment="Top" FontFamily="OCR A Std"/>
+        <Label Name="lbl_playerId" Content="Loading..." HorizontalAlignment="Left" Margin="296,150,0,0" VerticalAlignment="Top" FontFamily="OCR A Std"/>
+        <Label Name="lbl_players" Content="Loading..." HorizontalAlignment="Left" Margin="296,181,0,0" VerticalAlignment="Top" FontFamily="OCR A Std"/>
+        <Label x:Name="lbl_ticks" Content="Loading..." HorizontalAlignment="Left" Margin="296,210,0,0" VerticalAlignment="Top" FontFamily="OCR A Std"/>
+        <Label x:Name="lbl_status" Content="Status: Loaded" HorizontalAlignment="Left" Margin="296,90,0,0" VerticalAlignment="Top" FontFamily="OCR A Std"/>
+        <Rectangle Name="rect_player" Fill="#FF81FF8C" HorizontalAlignment="Left" Height="16" Margin="411,152,0,0" VerticalAlignment="Top" Width="25"/>
     </Grid>
 </Window>

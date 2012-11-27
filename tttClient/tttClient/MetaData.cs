@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace tttClient
 {
-    public class Move
+    public static class MetaData
     {
-        public int Player { get; set; }
-        public int X { get; set; }
-        public int Y { get; set; }
+        public static string Url;
     }
 }

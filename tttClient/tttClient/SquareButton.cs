@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 
 namespace tttClient
 {
-    public class Move
+    public class SquareButton : Button
     {
-        public int Player { get; set; }
-        public int X { get; set; }
-        public int Y { get; set; }
+        public int X, Y, Player;
     }
 }
